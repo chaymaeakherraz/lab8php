@@ -46,8 +46,8 @@ class AppFactory
         $router->get('/etudiants/create', [$etudiantController, 'create']);
         $router->post('/etudiants/store', [$etudiantController, 'store']);
 
-        $router->get('/etudiants/edit', [$etudiantController, 'edit']);      // ✅ جديد
-        $router->post('/etudiants/update', [$etudiantController, 'update']); // ✅ جديد
+        $router->get('/etudiants/edit', [$etudiantController, 'edit']);     
+        $router->post('/etudiants/update', [$etudiantController, 'update']); 
 
         $router->get('/etudiants/delete', [$etudiantController, 'delete']);
 
