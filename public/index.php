@@ -23,9 +23,9 @@ require_once __DIR__ . '/../src/Controller/EtudiantController.php';
 
 use App\Container\AppFactory;
 
-// 🚀 تشغيل التطبيق
+
 $app = new AppFactory();
 list($router, $request) = $app->create();
 
-// 🔥 dispatch
+
 $router->dispatch($request);
